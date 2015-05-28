@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">康哥记账</string>
+    <string name="action_settings">Settings</string>   
+     <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="DialogText">
+        <item name="android:textColor">#6e0000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="enable">
+        <item name="android:background">#21a0a0</item>
+    </style>
+    <style name="disable">
+        <item name="android:background">#6e6e6e</item>
+    </style>
+ 
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <string name="desc1">系统默认用户无密码保护，若需要建立私\n密记账，请建立个人账户</string>
+    <string name="desc2">用户注册时，用户名密码无特殊限制，但\n请记牢，系统不提供找回服务</string>
+    <string name="desc3">还原默认设置将会把当前用户的收入、支\n出类型重置为初始状态,此操作请慎重</string>
+    <string name="desc4">在使用过程中遇到任何问题或有良好的建\n议，欢迎发送邮件到:\n 1530669303@qq.com 反馈! 谢谢！</string>
+    <string name="menu_settings">Settings</string>
+</resources>
